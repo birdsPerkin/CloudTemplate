@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="CloudTemplate" />
-        <module name="eureka-server" />
-        <module name="eureka-consumer" />
         <module name="eureka-client-service" />
+        <module name="eureka-server" />
+        <module name="eureka-cunsumer" />
+        <module name="CloudTemplate" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +20,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-client-service" options="-parameters" />
       <module name="eureka-consumer" options="-parameters" />
+      <module name="eureka-cunsumer" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
     </option>
   </component>
