@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client-service" />
-        <module name="eureka-server" />
         <module name="eureka-cunsumer" />
+        <module name="eureka-server" />
         <module name="CloudTemplate" />
       </profile>
     </annotationProcessing>
