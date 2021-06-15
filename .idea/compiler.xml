@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-client-service" />
+        <module name="CloudTemplate" />
         <module name="eureka-cunsumer" />
         <module name="eureka-server" />
-        <module name="CloudTemplate" />
+        <module name="eureka-client-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

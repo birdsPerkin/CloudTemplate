@@ -5,6 +5,6 @@ MAINTAINER liu.gx birds_perkin@163.com
 
 ADD target/eureka-client-service-0.0.1-SNAPSHOT.jar eureka-client-service-0.0.1-SNAPSHOT.jar
 
-EXPOSE 9901
+EXPOSE 9900
 
 ENTRYPOINT ["java", "-jar", "/eureka-client-service-0.0.1-SNAPSHOT.jar"]
