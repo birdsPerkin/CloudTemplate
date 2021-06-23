@@ -7,8 +7,12 @@ eureka:
   client:
     service-url:
       defaultZone: http://eurekaUser:$EurekaUser$@121.5.211.53:9999/eureka/
-#      defaultZone: http://eurekaUser:$EurekaUser$@127.0.0.1:9999/eureka/
+  #      defaultZone: http://eurekaUser:$EurekaUser$@127.0.0.1:9999/eureka/
+    healthcheck:
+      enabled: true
   instance:
     prefer-ip-address: true
     instance-id: ${spring.application.name}
     ip-address: 121.5.211.53
+    lease-expiration-duration-in-seconds: 90
+    lease-renewal-interval-in-seconds: 30
