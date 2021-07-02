@@ -16,7 +16,7 @@ public class BeanConfiguration {
     /**
      *
      * @return
-     * @LoadBalanced 注解，这个注解会自动构造 LoadBalancerClient 接口的实现类并注册到 Spring 容器中
+     * @LoadBalanced 注解，这个注解会自动构造 LoadBalancerClient 接口的实现类并注册到 Spring 容器中,客户端负载均衡实现
      */
     @Bean
     @LoadBalanced
